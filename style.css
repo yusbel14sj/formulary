@@ -32,4 +32,6 @@ body{
     font-size: 3rem;
     padding: 5px 20px;
     line-height: 1;
+    height: 45px;
+    border-radius: 50%;
 }
