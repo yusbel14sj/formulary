@@ -19,7 +19,7 @@ body{
     justify-content: center;
 }
 .cart-form{
-    position: absolute;
+    position: relative;
     width:750px;
     height: 500px;
     background-color:#fff;
@@ -84,6 +84,9 @@ body{
 
 
 /*primer card del  formulario*/
+.set-uno{
+    display: none;
+}
 
 .form {
     position:absolute;
@@ -134,5 +137,48 @@ button {
     border: none;
     background-color: var(--color-secont);
 }
-
 /* segundo formulario */ 
+.set-dos {
+    position:absolute;
+    top: 35px;
+    left: 290px;
+
+}
+.set-dos h2{
+    height: 40px;
+    margin: 0;
+    color: var(--color-primary);
+    font-size: 3rem;
+    font-weight: 100;
+}
+.set-dos p {
+    font-size: 1.5rem;
+    color: var(--colo-bag);
+}
+.set-dos_list {
+    margin: 50px 0 0 0;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+.set-dos_list .set-dos_list-item{
+    display: grid;
+    padding: 15px;
+    width: 90px;
+    height: 120px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    gap: 0;
+}
+.set-dos_list-item img {
+    justify-content: start;
+}
+.set-dos_list-item h3{
+    font-size: 1.5rem;
+    margin:30px 0 0 0;
+    color: var(--colo-bag);
+}
+.set-dos_list-item p {
+    font-size: 1.3rem;
+    color: var(--color-primary);
+}
