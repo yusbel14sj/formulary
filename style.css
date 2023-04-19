@@ -1,7 +1,7 @@
 :root{
     --color-primary: #064E80;
     --color-secont: #4A95CA;
-    --color-lite:#A7D5E6;
+    --color-lite:#edf7fa;
     --colo-bag:#76B6B3;
 
 }
@@ -137,6 +137,9 @@ button {
     border: none;
     background-color: var(--color-secont);
 }
+button:hover{
+    cursor: pointer;
+}
 /* segundo formulario */ 
 .set-dos {
     position:absolute;
@@ -181,4 +184,53 @@ button {
 .set-dos_list-item p {
     font-size: 1.3rem;
     color: var(--color-primary);
+}
+
+
+.buttom_card-dos{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-lite);
+}
+.buttom_card-dos p {
+    color: var(--color-primary);
+}
+.switch_btm {
+    display: none;
+}
+
+.lbl-switch  {
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px 0 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(--color-primary);
+}
+
+#btm-switch:checked~ .lbl-switch {
+    background-color: var(--color-secont);
+}
+
+.lbl-switch::after {
+
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: var(--color-secont);
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    content: " ";
+}
+#btm-switch:checked~ .lbl-switch::after {
+    background-color: var(--color-primary);
+    left:auto ;
+    right: 2.5px;
+}
+.form-button-dos {
+    justify-content: space-between;
 }
