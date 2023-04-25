@@ -233,3 +233,59 @@ button:hover{
 
 /* tercera parte del formulario*/
 
+.set-tres {
+    position: absolute;
+    top: 30px;
+    left: 280px;
+
+}
+.set-tres_title {
+
+}
+.set-tres_title h3 {
+    font-size: 2rem;
+    color: var(--color-secont);
+    margin: 10px 0 5px 0;
+}
+.set-tres_title p {
+    font-size: medium;
+    color: var(--colo-bag);
+    margin: 0;
+
+}
+.set-tres_list {
+    margin: 0;
+    padding: 40px;
+    list-style: none;
+
+}
+.placeLarge {
+    width: 300px;
+    border: 1px solid var(--color-secont);
+    padding: 10px 0 10px 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.placeLarge input {
+    margin-right: 6px;
+}
+.placeLarge h4 {
+    color: var(--color-secont);
+    font-size: 1.4rem;
+    margin: 3px 0 0 0;
+}
+.placeLarge p {
+    margin: 0 0 3px ;
+    font-size: 1.2rem;
+    color: var(--colo-bag);
+}
+.placeLarge-prece {
+    margin-left: auto;
+    padding: 0 10px 0 0;
+    color:purple;
+    font-size: medium;
+}
+.form-button-tres {
+    margin: auto;
+}
