@@ -142,6 +142,7 @@ button:hover{
 }
 /* segundo formulario */ 
 .set-dos {
+    display: none;
     position:absolute;
     top: 35px;
     left: 290px;
@@ -185,8 +186,6 @@ button:hover{
     font-size: 1.3rem;
     color: var(--color-primary);
 }
-
-
 .buttom_card-dos{
     display: flex;
     height: 45px;
@@ -200,7 +199,6 @@ button:hover{
 .switch_btm {
     display: none;
 }
-
 .lbl-switch  {
     cursor: pointer;
     position: relative;
@@ -210,11 +208,9 @@ button:hover{
     border-radius: 15px;
     background-color: var(--color-primary);
 }
-
 #btm-switch:checked~ .lbl-switch {
     background-color: var(--color-secont);
 }
-
 .lbl-switch::after {
 
     width: 25px;
@@ -234,3 +230,6 @@ button:hover{
 .form-button-dos {
     justify-content: space-between;
 }
+
+/* tercera parte del formulario*/
+
