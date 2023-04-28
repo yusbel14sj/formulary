@@ -9,6 +9,8 @@
     font-family: ubuntu ,Arial, Helvetica, sans-serif;
     box-sizing:content-box;
     font-size: 60%;
+    margin: 0;
+    padding: 0;
 
 }
 body{
@@ -234,6 +236,7 @@ button:hover{
 /* tercera parte del formulario*/
 
 .set-tres {
+    display: none;
     position: absolute;
     top: 30px;
     left: 280px;
@@ -288,4 +291,111 @@ button:hover{
 }
 .form-button-tres {
     margin: auto;
+}
+
+/* cuartio set */ 
+.set-cuatro {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 280px;
+}
+.set-cuatro h4 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: var(--color-primary);
+}
+.set-cuatro p {
+    font-size: medium;
+    color: var(--colo-bag);
+    margin: 0;
+}
+.set-cuatro_aside {
+    background-color: #efefef;
+    border-radius: 10px;
+
+
+}
+.set-cuatro_aside-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px ;
+    padding: 20px 0 ;
+    border-bottom: 1px solid #aeaeae ;
+    border-width: 70%;
+}
+.set-cuatro_aside-title h5 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin: auto 0 0 0;
+}
+.set-cuatro_aside-title a {
+    font-size:1.3rem ;
+    text-decoration:underline;
+    font-weight:lighter;
+    color: var(--colo-bag);
+}
+.set-cuatro_aside-title p {
+    color: var(--color-primary);
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.set-cuatro_aside-list {
+    list-style: none;
+    padding: 20px;
+}
+.set-cuatro_aside-list_item {
+    display: flex;
+    justify-content: space-between;
+}
+.set-cuatro_aside-list_item a {
+    font-size: 1.6rem;
+    color:var(--colo-bag);
+}
+.set-cuatro_aside-list_item p {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    font-weight:bolder;
+}
+.set-cuatro_total {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.set-cuatro_total a{
+    font-size: 1.6rem ;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+/* cart final 
+.form .finish {
+    display: none iportant!
+}
+.finish {   
+    position:absolute;
+    top:0;
+    left:250px;
+    width: 300px;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    text-align: center;
+    width: auto;
+    margin: 0;
+    padding:0 30px;
+    display: none;
+
+}
+.finish h5 {
+    font-size: 4rem;
+    margin: 0;
+}
+.finish p{
+    margin: 0;
+    font-size: 1.8rem;
 }
