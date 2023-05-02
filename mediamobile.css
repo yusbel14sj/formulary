@@ -1,0 +1,92 @@
+@media (max-width:500px) {
+     /* set uno */    
+    .form {
+        left:calc(50% - 40%);
+    }
+    .form-button{
+        box-sizing: content-box;
+        width: 80%;
+        position: fixed;
+        bottom: 5%;
+        left:10%;
+        display: flex;
+        justify-content: end;
+    }
+    /* segundo formulario */
+    .set-dos {
+        left:calc(50% - 40%);
+        padding: 20px;
+    }
+    .set-dos_list {
+        margin:20px 0 15px 0 ;
+        gap: 4px;
+    }
+    /* tercera parte del formulario */
+    .set-tres {
+        box-sizing: border-box;
+        background-color: #fff;
+        position:absolute;
+        top:15%;
+        left:calc(50% - 40%);
+        padding:20px;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 10px;
+    
+    }
+    .set-tres_list{
+        padding: 0;
+    }
+    .set-tres_list .set-tres_list-item{
+        margin: 10px 0;
+    }
+    .form-button{
+        justify-content: space-between;
+    }
+    .form-button button  {
+        width: auto
+    };
+        /* cuartio set */
+    .set-cuatro {
+        box-sizing: border-box;
+        background-color: #fff;
+        position:absolute;
+        top:15%;
+        left:calc(50% - 40%);
+        padding:20px;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 10px;
+        
+    }
+    
+    /* cart final /*/
+    body .finish {
+        display:;
+    }
+    .finish {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        box-sizing: border-box;
+        background-color: #fff;
+        position:absolute;
+        top:15%;
+        left:calc(50% - 40%);
+        padding:30px;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .finish h5 {
+        font-size: 4rem;
+        margin: 0;
+    }
+    .finish p{
+        margin: 0;
+        color: #aaa;
+        font-size: 1.8rem;
+    }
+}

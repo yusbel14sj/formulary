@@ -295,7 +295,7 @@ button:hover{
 
 /* cuartio set */ 
 .set-cuatro {
-    display: none;
+    display:none;
     position: absolute;
     top: 30px;
     left: 280px;
@@ -369,9 +369,9 @@ button:hover{
     text-decoration: none;
 }
 
-/* cart final 
-.form .finish {
-    display: none iportant!
+/* cart final */
+.form-list .finish {
+    display: none ;
 }
 .finish {   
     position:absolute;
@@ -393,7 +393,9 @@ button:hover{
 }
 .finish h5 {
     font-size: 4rem;
+    color: #aaa;
     margin: 0;
+    font-weight: 200;
 }
 .finish p{
     margin: 0;
