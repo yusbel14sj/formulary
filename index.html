@@ -17,7 +17,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body onload="showOneCard()">
 
   <!-- Sidebar start -->
   <section class="cart-form">
@@ -32,7 +32,7 @@
               <p class="form-item_text">Your info</p>
             </div>
         </div>
-        <div class="set-uno">
+        <div class="set-uno" id="cardUno">
           <form class="form">
             <h1>Personal info</h1>
             <p>Please provide your name, email address, 
@@ -45,7 +45,7 @@
             <label for="phone">Phone Number</label>
             <input type="number" name="phone" id="phone" required placeholder="eg. +1234567890">
             <div class="form-button">
-              <button type="submit">Next Step</button>
+              <button id="buttonOneNext" type="submit">Next Step</button>
             </div>
           </form>
         </div>
@@ -60,7 +60,7 @@
             <p class="form-item_text">Select plan</p>
           </div>
         </div>
-        <div class="set-dos">
+        <div class="set-dos" id="cardDos">
           <h2>Select your plan</h2>
           <p>You have the option of monthly or yearly billing</p>
           <ul class="set-dos_list">
@@ -87,8 +87,8 @@
             <p>Year</p>
           </div>
           <div class="form-button form-button-dos">
-            <button type="submit">Go Back</button>
-            <button type="submit">Next Step</button>
+            <button id="buttonTwoBack" type="submit">Go Back</button>
+            <button id="buttonTwoNext" type="submit">Next Step</button>
           </div>
         </div>
       </li>
@@ -102,7 +102,7 @@
             <p class="form-item_text">Add-ons</p>
           </div>
         </div>
-        <div class="set-tres">
+        <div class="set-tres" id="cardTres">
           <div class="set-tres_title">
             <h3>Pick add-ons</h3>
             <p>Add ons help enhance your gaming experience.</p>
@@ -139,9 +139,9 @@
               </label>
             </li>
           </ol>
-          <div class="form-button form-button-dos form-button form-button-tres">
-            <button type="submit">Go Back</button>
-            <button type="submit">Next Step</button>
+          <div id="buttonTres" class="form-button form-button-dos form-button form-button-tres">
+            <button id="buttonThreeBack" type="submit">Go Back</button>
+            <button id="buttonThreeNext" type="submit">Next Step</button>
           </div>
         </div>
       </li>
@@ -155,7 +155,7 @@
             <p class="form-item_text">Summary</p>
           </div>
         </div>
-        <div class="set-cuatro">
+        <div class="set-cuatro" id="cardCuatro">
           <h4>Finishing Up.</h4>
           <p>Double-check everyting looks OK befor confirmg.</p>
           <aside class="set-cuatro_aside">
@@ -183,14 +183,14 @@
             <a href="#">Total (per year)</a>
             <p>$120/year</p>
           </div>
-          <div class="form-button form-button-dos form-button form-button-tres">
-            <button type="submit">Go Back</button>
-            <button type="submit">Confirm</button>
+          <div id="buttonCuatro" class="form-button form-button-dos form-button form-button-tres">
+            <button id="buttonFourBack" type="submit">Go Back</button>
+            <button id="buttonFourNext" type="submit">Confirm</button>
           </div>
         </div>
         
       </li>
-      <li class="finish">
+      <li id="finish" class="finish">
         <img src="assets/images/icon-thank-you.svg" alt="">
         <h5>Thank you!</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quibusdam nulla rem deserunt et ducimus nam accusantium ullam perspiciatis ipsum. Consequuntur dolorem omnis nostrum saepe perspiciatis nesciunt velit, ratione id?</p>
