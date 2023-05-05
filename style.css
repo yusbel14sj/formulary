@@ -13,6 +13,7 @@
     padding: 0;
 
 }
+
 body{
     background-color: var(--color-lite);
     display: flex;
@@ -400,4 +401,8 @@ button:hover{
 .finish p{
     margin: 0;
     font-size: 1.8rem;
+}
+.ubi {
+    color: #2176b0;
+    background-color:var(--color-lite)
 }

@@ -157,7 +157,7 @@
         box-sizing: border-box;
         background-color: #fff;
         position:absolute;
-        top:15%;
+        top:10%;
         left:calc(50% - 200px);
         padding:30px;
         width: 80%;
@@ -173,5 +173,5 @@
         margin: 0;
         color: #aaa;
         font-size: 1.8rem;
-    }*/
+    }
 }

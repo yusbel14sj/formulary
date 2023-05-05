@@ -12,8 +12,20 @@
         display: flex;
         justify-content: end;
     }
+    .form .form-button-next {
+        justify-content: end;
+    }
     /* segundo formulario */
     .set-dos {
+        box-sizing: border-box;
+        background-color: #fff;
+        position:absolute;
+        top:15%;
+        padding:20px 20px 30px 20px;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 2%;
+        margin:0;
         left:calc(50% - 40%);
         padding: 20px;
     }
@@ -47,7 +59,7 @@
         width: auto
     };
         /* cuartio set */
-    .set-cuatro {
+    #cardCuatro {
         box-sizing: border-box;
         background-color: #fff;
         position:absolute;
@@ -57,7 +69,6 @@
         width: 80%;
         max-width: 400px;
         border-radius: 10px;
-        
     }
     
     /* cart final /*/
